@@ -1,0 +1,36 @@
+programa 
+{
+  inclua biblioteca Matematica-->mat
+  funcao inicio() 
+  {
+    escreva("a. Se você tem 977 milhões de segundos de idade, você teria ", (977000000/60/60/24/365.25)/0.2408467, " anos em Mercúrio.")
+    escreva("\nb. ")
+
+    inteiro idade
+    inteiro planeta
+    
+    escreva ("Qual sua idade: ")
+    leia(idade)
+    escreva ("Planetas do Sistema Solar:\n1 - Mercúrio\n2 - Vênus\n3 - Terra\n4 - Marte\n5 - Júpiter\n6 - Saturno\n7 - Urano\n8 - Netuno")
+    escreva ("\nEscolha um (digite o número): ")
+    leia(planeta)
+
+    se (planeta == 1)
+    escreva ("A sua idade em Mercúrio seria equivalente a ", idade/0.2408467, " anos.")
+    se (planeta == 2)
+    escreva ("A sua idade em Vênus seria equivalente a ", idade/0.61519726, " anos.")
+    se (planeta == 3)
+    escreva ("A sua idade em Terra seria equivalente a ", idade/1.0, " anos.")
+    se (planeta == 4)
+    escreva ("A sua idade em Marte seria equivalente a ", idade/1.8808158, " anos.")
+    se (planeta == 5)
+    escreva ("A sua idade em Júpiter seria equivalente a ", idade/11.862615, " anos.")
+    se (planeta == 6)
+    escreva ("A sua idade em Saturno seria equivalente a ", idade/29.4600, " anos.")
+    se (planeta == 7)
+    escreva ("A sua idade em Urano seria equivalente a ", idade/84.016846, " anos.")
+    se (planeta == 8)
+    escreva ("A sua idade em Netuno seria equivalente a ", idade/164.79132, " anos.") 
+  }
+}
+
