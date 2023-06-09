@@ -1,0 +1,16 @@
+
+programa 
+{
+  inclua biblioteca Matematica-->mat
+  funcao inicio() 
+  {
+  inteiro tam
+
+  escreva ("Você deseja cortar a tábua em 3, 4 ou 5 metros? ")
+  leia(tam)
+  escreva ("Neste tamanho terão ", 45/tam, " pedaços cortados igualmente e sobrará(ão) ", 45%tam, ".")
+  }
+}
+
+programa 
+{
