@@ -1,0 +1,26 @@
+programa 
+{
+  inclua biblioteca Matematica-->mat
+  funcao inicio() 
+  {
+    real raiz
+    real tam
+    tam = (11.5*11.5)+(6.3*6.3)
+    raiz = mat.raiz((11.5*11.5)+(6.3*6.3), 2.0)
+    escreva("a. ")
+    escreva ("Para uma casa que mede 11.5 x 6.3 metros, seriam necessários ", raiz , " metros de fio.")
+
+    escreva("\nb. ")
+    real larg, comp
+    real raiz
+
+    escreva ("Quanto mede a largura da casa? ")
+    leia(larg)
+    escreva ("Quanto mede o comprimento da casa? ")
+    leia(comp)
+    raiz = mat.raiz((larg*larg)+(comp*comp), 2.0)
+    escreva ("Dado essas dimensões, a quantidade de fio necessária será equivalente a ", raiz, " metros.")
+  }
+}
+
+
