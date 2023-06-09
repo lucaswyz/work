@@ -1,0 +1,16 @@
+programa {
+  inclua biblioteca Matematica-->mat
+  funcao inicio() 
+  {
+    inteiro tempo_diario, dias_semana, semanas_ano, total, horas
+    tempo_diario = 5
+    dias_semana = 6 
+    semanas_ano = 52
+
+    total = (tempo_diario*dias_semana)*52
+    horas = total/60
+    escreva("Ao final do livro essa pessoa terá dedicado ", horas, " horas para ler.")
+  }
+}
+
+
