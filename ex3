@@ -1,0 +1,11 @@
+programa 
+{
+  inclua biblioteca Matematica-->mat
+  funcao inicio() 
+  {
+   escreva ("Tendo 6 disciplinas para estudar e desejando reservar um tempo para descansar, o estudante deverá dividir o tempo de 1 hora e 40 minutos em ", 100/6, 
+   " minutos para estudar e ", 100 % 6, " minutos para descansar.")
+  }
+}
+
+
