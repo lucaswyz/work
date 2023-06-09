@@ -1,0 +1,15 @@
+programa 
+{
+  inclua biblioteca Matematica-->mat
+  funcao inicio() 
+  {
+    escreva("a. Em um ano há ", 365.25*24, " horas.")
+    escreva("\nb. Em uma década há ", 10*365.25*24*60, " minutos.")
+    escreva("\nc. Nasci dia 05/03/2008 e hoje, dia (08/06/2008), tenho ", (15*365.25*24*60*60)+((2*31+30)*24*60*60), " segundos de vida.")
+    escreva("\nd. Acho que ainda vou comer bastante, chocolate é muito bom!!!")
+    escreva("\ne. Você tem ", 977000000/60/60/24/365.25, " anos.")
+  }
+}
+
+
+
