@@ -1,0 +1,20 @@
+programa 
+{
+  inclua biblioteca Matematica-->mat
+  funcao inicio() 
+  {
+    inteiro mb
+    inteiro mbps
+    real tempo
+    
+    escreva ("Qual o tamanho do arquivo (em Megabites) que vc deseja instalar? ")
+    leia(mb)
+
+    escreva ("Qual a velocidade de conexão com a internet (mbps)? ")
+    leia(mbps)
+    
+    tempo = (mb/mbps)/60
+    escreva ("O tempo aproximado de download do arquivo será de ", tempo, " minutos.")
+  }
+}
+
