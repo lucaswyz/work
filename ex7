@@ -1,0 +1,17 @@
+programa 
+{
+  inclua biblioteca Matematica-->mat
+  funcao inicio() 
+  {
+    inteiro idade
+    inteiro soma
+
+    escreva ("Qual a sua idade? ")
+    leia(idade)
+    
+    soma = idade*(idade+1)/2
+    escreva("A soma de todas as suas idades equivale a ", soma, ".")
+  }
+}
+
+
