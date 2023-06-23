@@ -1,0 +1,32 @@
+rograma
+{
+	
+     inclua biblioteca Matematica --> mat
+	funcao inicio()
+	{
+	 inteiro n
+	 inteiro num = 1
+
+	 escreva("a. Informe um número natural: ")
+	 leia(n)
+	 
+	se(n>0){
+		escreva ("   ", num, " ")
+		enquanto(num<n){
+			num = num + 1
+			escreva (num, " ")
+		}
+	  }
+	  senao{
+	  	escreva("O número informado deve ser maior que 0")
+	  }
+	  se(n>0){
+	  	escreva ("\n\n\nb. ", n)
+	  	enquanto(n>1){
+	  		n = n - 1
+	  		escreva (" ", n, "")
+	  	}
+	  }
+	  escreva("\n")
+	}
+}
