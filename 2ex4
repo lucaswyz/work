@@ -1,0 +1,17 @@
+programa
+{
+	
+inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		inteiro num = 1
+		inteiro impar 
+
+		enquanto(num < 49){
+			num = num + 2
+			escreva(num, "\n")
+			Util.aguarde(500)
+		}
+	}
+}
+
