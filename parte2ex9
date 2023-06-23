@@ -1,0 +1,26 @@
+programa
+{
+	inclua biblioteca Util --> u
+	
+inclua biblioteca Matematica --> mat
+	funcao inicio()
+	{
+		real num
+		inteiro multi = 0
+
+		escreva ("Informe um número: ")
+		leia(num)
+
+		escreva("\nA tabuada deste número é:")
+		escreva("\n==========")
+		u.aguarde(300)
+
+		enquanto(multi != 10){
+		multi = multi + 1
+		escreva("\n", num*multi)
+		u.aguarde(300)
+			
+		}	
+		escreva("\n==========")
+	}
+}
