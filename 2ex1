@@ -1,0 +1,18 @@
+programa
+{
+	
+inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		
+inteiro cont = 1
+		escreva (cont)
+		Util.aguarde(500)
+
+		enquanto (cont !=20){
+			escreva("\n",cont = cont + 1)
+			Util.aguarde(500)
+		}
+		
+	}
+}
