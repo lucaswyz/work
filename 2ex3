@@ -1,0 +1,20 @@
+programa
+{
+	
+inclua biblioteca Util --> u
+	funcao inicio()
+	{
+		
+inteiro cont = 20
+		escreva (cont, ", ")
+		Util.aguarde(500)
+
+		enquanto (cont !=2){
+			escreva(cont = cont - 1, ", ")
+		
+		}
+		se (cont == 2)
+		escreva(cont = cont - 1)
+		
+	}
+}
