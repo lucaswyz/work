@@ -1,7 +1,7 @@
 programa 
 {
   inclua biblioteca Matematica --> mat
-  funcao inicio
+  funcao inicio()
   {
     real comp, larg, area
     real tinta, latas
